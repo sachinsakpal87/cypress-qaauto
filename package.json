@@ -1,0 +1,32 @@
+{
+  "name": "cypress-qaauto",
+  "version": "1.0.0",
+  "description": "Cypress QAAuto",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sachinsakpal87/cypress-qaauto.git"
+  },
+  "keywords": [
+    "cypress",
+    "qaauto",
+    "testing"
+  ],
+  "author": "Sachin Sakpal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sachinsakpal87/cypress-qaauto/issues"
+  },
+  "homepage": "https://github.com/sachinsakpal87/cypress-qaauto#readme",
+  "devDependencies": {
+    "cypress": "^5.0.0"
+  },
+  "dependencies": {
+    "cypress-image-snapshot": "^3.1.1",
+    "prettier": "^2.1.1"
+  }
+}
